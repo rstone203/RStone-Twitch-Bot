@@ -1,0 +1,30 @@
+{
+  "name": "rstone-twitch-bot",
+  "version": "1.0.0",
+  "description": "A Twitch chat bot with moderation, channel point redemptions, automated shoutouts, and Marvel Rivals statistics",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "check": "node --check src/index.js"
+  },
+  "keywords": [
+    "twitch",
+    "chatbot",
+    "nodejs",
+    "javascript",
+    "python",
+    "api-integration"
+  ],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@twurple/api": "^8.2.0",
+    "@twurple/auth": "^8.2.0",
+    "@twurple/chat": "^8.2.0",
+    "@twurple/eventsub-ws": "^8.2.0",
+    "better-sqlite3": "^11.10.0",
+    "dotenv": "^18.0.8",
+    "express": "^5.3.0"
+  }
+}

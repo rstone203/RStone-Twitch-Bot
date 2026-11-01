@@ -1,0 +1,7 @@
+{
+  "blockedWords": [],
+  "spamLimit": 5,
+  "spamWindowSeconds": 8,
+  "welcomeMessages": true,
+  "shoutoutCooldownSeconds": 60
+}

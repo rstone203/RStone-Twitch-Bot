@@ -1,0 +1,32 @@
+node_modules/
+.env
+data/
+*.log
+
+# Private configuration
+.npmrc
+
+# Local backups
+backups/
+*.bak
+*.save
+*.backup
+*.working-*
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+config/reward-ids.json
+
+# Python virtual environment
+.venv/
+
+# Additional backup filename variants
+*.bak*
+*.save*
+*.backup*
+
+# Python cache files
+__pycache__/
+*.py[cod]

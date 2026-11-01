@@ -1,0 +1,2 @@
+rivals-api==5.3.0
+python-dotenv==1.2.4
